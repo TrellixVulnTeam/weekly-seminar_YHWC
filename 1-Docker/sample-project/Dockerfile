@@ -27,5 +27,5 @@ EXPOSE 8080
 
 # 컨테이너가 <시작>되었을 때 실행할 실행파일 또는 쉘 스크립트. 오직 하나만 존재하여야 함.
 # CMD ["server.py"]
-CMD python -m http.server 8080 --bind 127.0.0.1
+CMD python -m http.server 8080
 
